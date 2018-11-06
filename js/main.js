@@ -170,6 +170,8 @@ request.then(function(values){
 function mapHoverHandler(eventObject) {
     console.log('eventObject', eventObject);
     console.log('mouse lat/lng', eventObject.latlng)
+    
+    document.getElementById('mouseCoordinatesBox').innerHTML='newtext';
 }
   	//  - second, register an event listener with the map
   	//    (something like map.on(....))
